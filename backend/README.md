@@ -1,10 +1,10 @@
-# Backend (Express)
+# Backend (Pipedream)
 
-Endpoints:
-- GET /ping
-- POST /analyze (currently placeholder)
+This backend runs on Pipedream using an HTTP trigger.
 
-Run locally:
-```bash
-npm install
-npm start
+Paste `pipedream-backend.js` into the Node.js code step.
+
+Add secret:
+GEMINI_API_KEY = your Google AI Studio API key
+
+Deploy. Use the generated endpoint URL in the mobile app.
