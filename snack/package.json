@@ -1,0 +1,9 @@
+{
+  "name": "ai-photo-scanner-snack",
+  "private": true,
+  "dependencies": {
+    "expo-image-picker": "*",
+    "react-native-paper": "4.9.2",
+    "@expo/vector-icons": "^15.0.3"
+  }
+}
